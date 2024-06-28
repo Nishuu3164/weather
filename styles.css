@@ -1,0 +1,96 @@
+body {
+    font-family: 'Times New Roman';
+    background-color: #4e7faa;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    font-family: fantasy;
+    color: #042a4d;
+    text-shadow: 8px 8px 10px #1660a6;
+}
+
+h2{
+    font-family: papyrus;
+    color: #0a2742;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+#city-input {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 6px 6px 8px #042a4d;
+}
+
+#search-button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 6px 6px 8px #042a4d;
+}
+
+#search-button:hover{
+    background-color: #a1c9ec;
+    border: .2px solid #426d96;
+    color: #042a4d;
+    box-shadow: 0 0 5px #a1c9ec, 0 0 25px #a1c9ec, 0 0 50px #a1c9ec, 0 0 100px #a1c9ec, 0 0 200px #a1c9ec;
+}
+
+
+.weather-card {
+    background-color: #a1c9ec;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 6px 6px 8px #042a4d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weather-card img {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 8px #1660a6;
+}
+
+.weather-info {
+    text-align: left;
+}
+
+.weather-card h2 {
+    margin: 0;
+}
+
+.temperature {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.description {
+    color: #555;
+}
+
+
+footer{
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
